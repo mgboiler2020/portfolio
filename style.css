@@ -1,20 +1,33 @@
 header {
-    margin: 15px;
+   
     padding: 10px;
     background: lightskyblue;
+    border: 5px;
+    border-style: double;
+    border-color: whitesmoke;
     color: blue;
 }
 
 body {
-    margin: 15px;
+    
     font-family: Arial, Helvetica, sans-serif;
-    background: lightgrey;
+    background: darkblue;
+}
+
+h1 {
+
+    background-color: whitesmoke;
+    color: darkblue;
+    text-shadow: 5px 5 px lightskyblue;
+     padding: 10px;
+
+   
+
 }
 
 .container {
     display: flex;
-    width: 500px;
-    margin: 20px auto;
+    width: 100%;
     height: 300px;
     display: grid;
     grid-gap: 4px;
@@ -46,16 +59,27 @@ a {
     text-decoration: none;
 }
 
-h3 {
-    color: whitesmoke;
-    border-bottom: 2px, grey;
-    background: darkblue;
-}
 
 div {
-    border-bottom: 1px solid gray;
     
+}
 
+h3 {
+    color: whitesmoke;
+    background: darkblue;
+   
+   
+ 
+    padding: 5px;
+}
+
+ul {
+
+    background: darkblue;
+    margin: 20px;
+    
+    
+   
 }
 
 footer {
@@ -65,7 +89,12 @@ footer {
     align-content: center;
     flex-direction: column;
     background: black;
+    border: whitesmoke;
+    border-width: 5px;
+    border-style: double;
+    height: 40px;
+    padding: 5px;
     color: white;
-    width: 100%;
+    width: 100% auto;
 
 }
